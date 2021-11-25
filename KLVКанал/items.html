@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KLV</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header id="header" class="header">
+    <div class="container">
+      <div class="header__inner">
+          <div class="logo-wrapper">
+            <div class="logo header__logo">
+                <img src="images/0.png" alt="Logo KLV">
+              </div>
+              <h1 class="header__title">KLV</h1>
+          </div>
+        <nav class="menu" style="z-index: 5">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="index.html" class="menu__link">Главная</a>
+            </li>
+            <li class="menu__item">
+              <a href="items.html" class="menu__link">Курсы</a>
+            </li>
+            <li class="menu__item">
+              <a href="callback.html" class="menu__link">Отправить курс</a>
+            </li>
+            <li class="menu__item">
+              <a href="social.html" class="menu__link">Социальные сети</a>
+            </li>
+          </ul>
+          
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="recipes">
+      <div class="container">
+        <div class="title__wrapper">
+          <h2 class="title">Курсы</h2>
+        </div>
+
+        <ul id="recipes__content" class="recipes__content">
+          <li class="recipes__item mix category-a">
+            <img src="images/recipes/01.png" alt="" class="recipes__item-img">
+            <div class="recipes__item-content">
+              <h3 class="recipes__item-title">Создание Telegram-бота на Java </h3>
+              <div class="recipes__item-desc">
+                <p>
+                  Что это: видеоурок по созданию Telegram-бота. <br>
+
+                  Что узнаем: как создавать простейшего бота в телеграм, который будет отвечать на команды.<br>
+
+                  Когда: 13 апреля в 20:00 (МСК)<span id="dots"></span>
+                  <div id="more">
+                    <h4 class="recipes__item-ing">Подробности</h4>
+                    <ol class="recipes__item-info">
+                      <li>Регистрация: https://geekbrains.ru/events/840</li>
+                    </ol>
+                  </div>
+                </p>
+              </div>
+              <div class="more__wrapper">
+                <button id="more-btn" class="more-btn" onclick="readMore()">Показать подробности</button>
+              </div>
+
+            </div>
+
+          </li>
+          <li class="recipes__item">
+            <img src="images/recipes/02.png" alt="" class="recipes__item-img">
+            <div class="recipes__item-content">
+              <h3 class="recipes__item-title">Основы интернет-маркетинга</h3>
+              <div class="recipes__item-desc">
+                <p>
+                  Что это: вводный курс для тех, кто хочет составить общее представление об интернет-маркетинге. В ходе курса будут рассмотрены базовые принципы работы и компоненты системы: SEO, SMM, e-mail marketing, PR, контекстная реклама.
+<span id="dots2"></span>
+                  <div id="more2">
+                    <h4 class="recipes__item-ing">Подробности</h4>
+                    <ol class="recipes__item-info">
+                      <li>Что узнаем:
+                      </li>
+                      <li> - необходимые сервисы для работы</li>
+                      <li> - веб-аналитика</li>
+                      <li> - e-mail маркетинг</li>
+                      <li> - цифровой PR</li>
+                      <li> - SMM (маркетинг в социальных сетях)</li>
+                      <li> - SEO (поисковая оптимизация)</li>
+                      <li> - контекстная реклама</li>
+                      <li> Ссылка на курс: https://stepik.org/course/4350/</li>
+                    </ol>
+                  </div>
+                </p>
+              </div>
+              <div class="more__wrapper">
+                <button id="more-btn2" class="more-btn" onclick="readMore2()">Показать подробности</button>
+              </div>
+            </div>
+
+          </li>
+          <li class="recipes__item">
+            <img src="images/recipes/03.png" alt="" class="recipes__item-img">
+            <div class="recipes__item-content">
+              <h3 class="recipes__item-title">Вёрстка</h3>
+              <div class="recipes__item-desc">
+                <p>
+                  Что это: платный трёхнедельный курс, на котором научимся верстать. После курса сможем самостоятельно сделать и запустить свой лендинг.<span
+                    id="dots3"></span>
+                  <div id="more3">
+                    <h4 class="recipes__item-ing">Подробности</h4>
+                    <ol class="recipes__item-info">
+                      <li> - основы вёрстки (как собирать страницу, как стилизовать с помощью CSS, адаптивность сайта для разных устройств)</li>
+                      <li> - правила вёрстки (позиционирование, формы, взаимодействие с парсерами и поисковыми системами)</li>
+                      <li> - всё о CSS</li>
+                      <li>Ссылка на курс: https://erodionov.ru/s/uqvkO</li>
+                    </ol>
+                  </div>
+                </p>
+              </div>
+              <div class="more__wrapper">
+                <button id="more-btn3" class="more-btn" onclick="readMore3()">Показать подробности</button>
+              </div>
+            </div>
+          </li>
+          <li class="recipes__item">
+            <img src="images/recipes/04.png" alt="" class="recipes__item-img">
+            <div class="recipes__item-content">
+              <h3 class="recipes__item-title">Основы написания макросов в Excel</h3>
+              <div class="recipes__item-desc">
+                <p>
+                  Что это: курс по написанию макросов в MS Excel, с помощью которых можно экономить время и автоматически выполнять однотипные задачи.<span
+                    id="dots4"></span>
+                  <div id="more4">
+                    <h4 class="recipes__item-ing">Подробности</h4>
+                    <ol class="recipes__item-info">
+                      <li> - что такое макросы и как их использовать</li>
+                      <li> - как создавать макросы</li>
+                      <li> - как пользоваться макрекордером для создания макросов без знаний языка VBA</li>
+                      <li> - что такое объекты Excel и как с ними работать</li>
+                      <li>Ссылка на курс: https://loftblog.ru/material/1-znakomstvo-s-makrosami/</li>
+                    </ol>
+                  </div>
+                </p>
+              </div>
+              <div class="more__wrapper">
+                <button id="more-btn4" class="more-btn" onclick="readMore4()">Показать подробности</button>
+              </div>
+            </div>
+          </li>
+          <li class="recipes__item">
+            <img src="images/recipes/05.png" alt="" class="recipes__item-img">
+            <div class="recipes__item-content">
+              <h3 class="recipes__item-title">Дизайнер интерфейсов. Введение в специальность</h3>
+              <div class="recipes__item-desc">
+                <p>
+                  Что это: курс для начинающих дизайнеров с уклоном на разработку сайтов и мобильных приложений. <span
+                    id="dots5"></span>
+                  <div id="more5">
+                    <h4 class="recipes__item-ing">Подробности</h4>
+                    <ol class="recipes__item-info">
+                      <li> - как применять законы проектирования взаимодействия с пользователем при построении структуры и логики интерфейса</li>
+                      <li> - придумывать логику простых сервисов и приложений, учитывать возможные ошибочные сценарии пользователей</li>
+                      <li> - применять простейшие законы типографики и визуального дизайна при работе над макетами экранов интерфейса</li>
+                      <li> - анализировать тренды, отличать хороший дизайн от плохого, использовать в своем дизайне современные тренды.</li>
+                      <li>Регистрация: coursera.org/learn/ux-ui-design</li>
+                    </ol>
+                  </div>
+                </p>
+              </div>
+              <div class="more__wrapper">
+                <button id="more-btn6" class="more-btn" onclick="readMore6()">Показать подробности</button>
+              </div>
+            </div>
+          </li>
+          <li class="recipes__item">
+            <img src="images/recipes/06.png" alt="" class="recipes__item-img">
+            <div class="recipes__item-content">
+              <h3 class="recipes__item-title">Bash: основы командной строки</h3>
+              <div class="recipes__item-desc">
+                <p>
+                  Что это: курс по основам работы в командной строке в linux и macOS системах. <span
+                    id="dots6"></span>
+                  <div id="more6">
+                    <h4 class="recipes__item-ing">Подробности</h4>
+                    <ol class="recipes__item-info">
+                      <li> - освоим навигацию по файловой системе в  bash</li>
+                      <li> - команды и способ управления деревом файлов и папок</li>
+                      <li> - как работать с программами-пейджерами</li>
+                      <li> - как работать с историей команд</li>
+                      <li>Ссылка на курс: ru.hexlet.io/courses/bash</li>
+                    </ol>
+                  </div>
+                </p>
+              </div>
+              <div class="more__wrapper">
+                <button id="more-btn6" class="more-btn" onclick="readMore6()">Показать подробности</button>
+              </div>
+            </div>
+          </li>
+          <li class="recipes__item">
+            <img src="images/recipes/07.png" alt="" class="recipes__item-img">
+            <div class="recipes__item-content">
+              <h3 class="recipes__item-title">Компьютерная графика: основы</h3>
+              <div class="recipes__item-desc">
+                <p>
+                  Что это: обзорный курс по компьютерной графике. Обучение начнём с физических основ и далее рассмотрим форматы и основные алгоритмы сжатия компьютерной графики.<span
+                    id="dots7"></span>
+                  <div id="more7">
+                    <h4 class="recipes__item-ing">Подробности</h4>
+                    <ol class="recipes__item-info">
+                      <li> - не-компьютерные основы компьютерной графики</li>
+                      <li> - изучим подходы к описанию цвета и световые модели</li>
+                      <li> - какие используются форматы файлов и алгоритмы сжатия</li>
+                      <li> - как работать с графикой из командной строки</li>
+                      <li>Ссылка на курс: https://stepik.org/course/419</li>
+                    </ol>
+                  </div>
+                </p>
+              </div>
+              <div class="more__wrapper">
+                <button id="more-btn7" class="more-btn" onclick="readMore7()">Показать подробности</button>
+              </div>
+            </div>
+          </li>
+          <li class="recipes__item">
+            <img src="images/recipes/08.png" alt="" class="recipes__item-img">
+            <div class="recipes__item-content">
+              <h3 class="recipes__item-title">Нейронные сети</h3>
+              <div class="recipes__item-desc">
+                <p>
+                  Что это: курс, на котором познакомимся с теоретическими и практическими основами искусственных нейронных сетей.<span
+                    id="dots8"></span>
+                  <div id="more8">
+                    <h4 class="recipes__item-ing">Подробности</h4>
+                    <ol class="recipes__item-info">
+                      <li> - что такое нейронные сети и как их применять</li>
+                      <li> - основы линейной алгебры</li>
+                      <li> - перцептрон и градиентный спуск</li>
+                      <li> - алгоритм обратного распространения ошибки</li>
+                      <li>Ссылка на курс: https://stepik.org/course/401/</li>
+                    </ol>
+                  </div>
+                </p>
+              </div>
+              <div class="more__wrapper">
+                <button id="more-btn8" class="more-btn" onclick="readMore8()">Показать подробности</button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <a href="#" class="header__logo">
+        <img src="images/0.png" alt="logo">
+      </a>
+    </footer>
+  </main>
+
+  <script src="js/main.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/mixitup.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+  <script type="text/javascript" src="js/mixitup.min.js"></script>
+</body>
+
+</html>
