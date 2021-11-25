@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KLV</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header id="header" class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="logo-wrapper">
+          <div class="logo header__logo">
+              <img src="images/0.png" alt="Logo KLV">
+            </div>
+            <h1 class="header__title">KLV</h1>
+        </div>
+        <button class="menu__btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="18" viewBox="0 0 30 18" fill="none">
+            <path d="M0 0H30V2H0V0Z" fill="white"></path>
+            <path d="M0 8H30V10H0V8Z" fill="white"></path>
+            <rect y="16" width="30" height="2" fill="white"></rect>
+          </svg>
+        </button>
+        <nav class="menu" style="z-index: 5">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="index.html" class="menu__link">Главная</a>
+            </li>
+            <li class="menu__item">
+              <a href="items.html" class="menu__link">Курсы</a>
+            </li>
+            <li class="menu__item">
+              <a href="callback.html" class="menu__link">Отправить курс</a>
+            </li>
+            <li class="menu__item">
+              <a href="social.html" class="menu__link">Социальные сети</a>
+            </li>
+          </ul>
+          
+        </nav>
+      </div>
+    </div>
+
+  </header>
+
+  <main>
+    <section class="callback">
+      <div class="container">
+        <div class="title__wrapper">
+          <h2 class="title">Отправить свой курс</h2>
+        </div>
+        <div class="container">
+          <div class="callback__inner">
+            <form action="#" class="callback__form">
+              <h3 class="title--small">Форма для отправки курса</h3>
+              <input class="callback__input" type="text" placeholder="Имя">
+              <input class="callback__input" type="tel" placeholder="Телефон">
+              <textarea class="callback__message" name="message" id="message"
+                placeholder="Оставьте свой курс, мы свяжемся с вами в скором времени" cols="30" rows="7"></textarea>
+              <div class="callback__btn"><button class="callback__submit" type="submit">Отправить</button>
+              </div>
+            </form>
+            <div class="collback__img">
+              <img src="images/callbackimg.jpeg" alt="callback img">
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+      <a href="#" class="header__logo">
+        <img src="images/0.png" alt="logo">
+      </a>
+    </footer>
+  </main>
+
+  <script src="js/main.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/mixitup.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+  <script type="text/javascript" src="js/mixitup.min.js"></script>
+</body>
+
+</html>
